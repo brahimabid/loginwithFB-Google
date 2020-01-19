@@ -23,6 +23,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { AcceuilComponent } from './acceuil/acceuil.component';
 import { ListSocieteComponent } from './list-societe/list-societe.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { TestComponent } from './test/test.component';
 
 
  
@@ -52,7 +53,8 @@ export function provideConfig() {
     FormationsComponent,
     ProfileComponent,
     AcceuilComponent,
-    ListSocieteComponent
+    ListSocieteComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,

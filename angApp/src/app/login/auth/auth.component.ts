@@ -30,7 +30,7 @@ export class AuthComponent implements OnInit {
     console.log(res);   
     
     
-      this.authService.authState.subscribe((user) => {
+      this.authService.authState.subscribe((user) => {     
 
         console.log(user)
         let password=user.id;
